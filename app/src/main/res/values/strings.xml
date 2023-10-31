@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewsApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="berita_tidak_ditemukan">Berita tidak ditemukan</string>
+    <string name="profil">Profil</string>
+    <string name="name">Rifki Rahmad Aditya</string>
+    <string name="email">rifkiaditya24545@gmail.com</string>
+    <string name="menu_more">menu more</string>
+    <string name="share">Share</string>
+    <string name="back_button">Back button</string>
+</resources>

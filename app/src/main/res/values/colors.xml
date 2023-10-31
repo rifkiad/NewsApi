@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="DeepBlue">#6200EE</color>
+    <color name="Teal">#009688</color>
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorPrimaryVariant">#1e6eb6</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorPrimaryDark">#5A0000</color>
+    <color name="colorPrimaryVariantDark">#330000</color>
+
+    <color name="progressBackgroundColor">#CCCCCC</color>
+    <color name="progressColor">#FF5733</color>
+</resources>
