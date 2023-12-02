@@ -30,10 +30,16 @@ class ListNewsAdapter : ListAdapter<ArticlesItem, ListNewsAdapter.ViewHolder>(Di
             val baseUrl = "https://newsapi.org/v2/everything"
             val fullImageUrl = newsItem.urlToImage
 
-            Picasso.get()
-                .load(fullImageUrl)
-                .error(R.drawable.ic_error)
-                .into(binding.imgThumbnail)
+            if (fullImageUrl != null) {
+                if (fullImageUrl.isNotEmpty()) {
+                    Picasso.get()
+                        .load(fullImageUrl)
+                        .error(R.drawable.ic_error)
+                        .into(binding.imgThumbnail)
+                } else {
+                    binding.imgThumbnail.setImageResource(R.drawable.ic_error)
+                }
+            }
 
             binding.check.setOnClickListener {
                 val actionToDetail =
